@@ -1,56 +1,68 @@
 {
   "actions": [
     {
-      "communityPoolDeposit": {
-        "value": {
-          "amount": {
-            "lo": "580433248217557752"
-          },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
+      "delegate": {
+        "validatorIdentity": {
+          "ik": "qFPW4W7+sIYDMCCEgewPONxWmIGySnKMWAi5RU/EVjs="
+        },
+        "epochIndex": "5122",
+        "unbondedAmount": {
+          "lo": "965683658136869161"
+        },
+        "delegationAmount": {
+          "lo": "743983243002587709"
         }
       }
     },
     {
-      "validatorDefinition": {
-        "validator": {
-          "identityKey": {
-            "ik": "drk6GBXxw0KK3gUd9YerKCWvfIDShHlWJYgvyqcRYxE="
-          },
-          "consensusKey": "L1b+vbeLToFuNQ0S83RQ1x46M3lHjIJv33P+p5NI9yY=",
-          "name": "test validator",
-          "enabled": true,
-          "governanceKey": {
-            "gk": "drk6GBXxw0KK3gUd9YerKCWvfIDShHlWJYgvyqcRYxE="
-          }
-        },
-        "authSig": "5imuUiqee0BI+r7e0Te55UpLjKs+GyhPNpPuNB3OKQVOEN+K2kj1RrZc2MA1OmLMkPXS7h3I1UchwjQU3hVjAw=="
-      }
-    },
-    {
-      "communityPoolOutput": {
+      "output": {
         "value": {
           "amount": {
-            "lo": "603275095482739504"
+            "lo": "996394354550312325"
           },
           "assetId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
           }
         },
-        "address": {
-          "inner": "LMc7iyEA/ZOUQAQKsqZab+eNxVK5gjPCW6FLQa9v7YHUaeMId98KpsU3MCL4LjTUMEaVZ1etW6GlbZryg3n5+Md0Nbwp/OxOt/yIcawviHE="
+        "destAddress": {
+          "inner": "bDz/Uzdm+xqqARddoHZj0C5A1ch7prN6E/7wMjdyGAVFBrINH8QMR1eKTCRBXJJoigt2LMJA4NmD0guzRLANRtJTlGSeBf03NFY/sM7flqY="
+        },
+        "rseed": "rpE945/BjNBbjR/Tm2fBN2hta4qJ1tGryZoDAOruGos=",
+        "valueBlinding": "CAHRy8VSjHre8pcUIkGupjeP5BvvQKAGP/nMUCnyvgA=",
+        "proofBlindingR": "Rf6y0q5+Xp+eiIsR4r9cYwkbFxJPzzhxKJgINPpWjwo=",
+        "proofBlindingS": "8ttEAS4n60yDReyh8owOGHHe1Mdcr45lPc3XuzhjbAE="
+      }
+    },
+    {
+      "positionClose": {
+        "positionId": {
+          "inner": "EGrZwxVcl1FJD14g3eHthmZnLjvEnRNMPcf+P3wh5ck="
+        }
+      }
+    },
+    {
+      "actionDutchAuctionEnd": {
+        "auctionId": {
+          "inner": "4Ym+mCkR0PABzjHY2CEzQkzn4YSxqozV/V9e6z586DA="
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "8826348862",
-    "chainId": "rlrgvbbxzyksy-60",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "704036978167257025"
+        "lo": "92875201310875696"
       }
     }
+  },
+  "memo": {
+    "plaintext": {
+      "returnAddress": {
+        "inner": "36z9cS/Wdsv/1s37ttqdnfv/z26MpBj+vCoNeIaQWtaJAWFpxhygHFTB4mX9ChzyQZqu2v2CHGdgnCNE5T6Jov9B4gfMQag80ehi4SK6X0M="
+      },
+      "text": "jAJMxg39U  w66gi77Y4dkl5gsv 82 lYY fmw1Lq n MNTdr83qI ttqPz19 6h r   j8g  N9h1QW5NrXksp281houwI Ba0b 07uoq8YxNi Zp h tbz34 RWbt7pFXG  GMxh8S  60 3Yag BjINETI1I7q8Fu xgAg  SCx 8 ljj DnimOYFm li n19 0LO S 67CLg   yufw5xeI9vn d56 C m4Z tObuq3L 0  75L 3NJ6  Bpidj4dLZmya5Tz7lWXL367eG5C1okX qvs5Z9tq1T9iMpxW CAGkYQd9M2vBvE 3 Z 7RjoC 9 OetAcO lO xn9b PG h V2w 3teMcVR p 4x WTqe1jevY s R5 j"
+    },
+    "key": "5kG+Me0IfRZvhKUaFwgW3d5+5hIDrrf8iaVJJ08tDRM="
   }
 }

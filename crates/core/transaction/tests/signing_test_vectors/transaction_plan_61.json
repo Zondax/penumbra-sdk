@@ -1,45 +1,22 @@
 {
   "actions": [
     {
-      "actionDutchAuctionSchedule": {
-        "description": {
-          "input": {
-            "amount": {
-              "lo": "300153853829895979"
-            },
-            "assetId": {
-              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-            }
-          },
-          "outputId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          },
-          "maxOutput": {
-            "lo": "860913514515460497"
-          },
-          "minOutput": {
-            "lo": "185870413524230563"
-          },
-          "startHeight": "618624263",
-          "endHeight": "618624264",
-          "stepCount": "294135031",
-          "nonce": "eiTE7CH2wbnYdJuwTWoMwVx6glzmD1/6KK9GgIr6zh8="
-        }
-      }
-    },
-    {
-      "ibcRelayAction": {
-        "rawAction": {
-          "typeUrl": "/ibc.core.channel.v1.MsgRecvPacket",
-          "value": "CrMBCNmS7AQSC2RlZmF1bHRQb3J0GgljaGFubmVsLTAiC2RlZmF1bHRQb3J0KgljaGFubmVsLTAyZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA6DAjVs9OLAxDZl5GyAkDwhbyDxbu2iBgSAgoAGgwI1bPTiwMQ2ZeRsgIijwFwZW51bWJyYTE1cGVuenJzNnd5dHNja2pqdmd2YTJyam1rdWFxdjRmbHV0Y2h5Nnk5M3QyMnM5NWNhOTQ3c3J0ZGt3cWNha3B2eGR4ODNtcHEyMmFtbGNrd3N5Nzh5OW5hdTlteWg1Znk1M2dlamdwaHlhd3htbmFmazNlMDdlaHBsdTdyaHp5ZzR0eHQ5Mg=="
-        }
-      }
-    },
-    {
-      "communityPoolSpend": {
-        "value": {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "3dYJxgqCrmt1TgPJGmThxXdnTxRJozs+Rzr70A3l3Ro="
+        },
+        "seq": "688008928",
+        "reservesInput": {
           "amount": {
-            "lo": "323571363887294187"
+            "lo": "712599456135074450"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "474505670564821338"
           },
           "assetId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
@@ -48,43 +25,45 @@
       }
     },
     {
-      "swap": {
-        "swapPlaintext": {
-          "tradingPair": {
-            "asset1": {
-              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-            },
-            "asset2": {
-              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-            }
+      "positionWithdraw": {
+        "reserves": {
+          "r1": {
+            "lo": "768199083802194201"
           },
-          "delta1I": {
-            "lo": "394892372392195253"
-          },
-          "delta2I": {
-            "lo": "599981972112015708"
-          },
-          "claimFee": {
-            "amount": {}
-          },
-          "claimAddress": {
-            "inner": "Pz36KO8OHiwRzcT8nt5vivHG8Lfcx/uRK5ZPrJ7PXEB3309hqb7iVKRP8VPLiXNMzRNhMj9SZxTZ/QJzm52tX98gBFkA1xi44Nc8oScl8PA="
-          },
-          "rseed": "+wsLm9Y4MIq4JtWAg6VLAsdQi8gqc66hVzBhhqf+ghs="
+          "r2": {
+            "lo": "494502355682392880"
+          }
         },
-        "feeBlinding": "20zcErCGM2wqpgGnEequ2ucs8pQtcooYw1FsXWohpQE=",
-        "proofBlindingR": "1gpAZ12J4fF28MQGwkxPFo9tBZLqJNAR8jBZZ0UIqAw=",
-        "proofBlindingS": "aD2wE3kbEvfWBk3trnOlOvwFuKg9PJ/WTjXZqKFW0wU="
+        "positionId": {
+          "inner": "xOj6D72399uy9DwNVc9+uVEOLpzl3AiY+jj5q0ikfF4="
+        },
+        "pair": {
+          "asset1": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "asset2": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "sequence": "5603448022765300533"
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "9813319055",
-    "chainId": "lazpo-94358",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "607636800537549935"
+        "lo": "361487111257707072"
       }
     }
+  },
+  "memo": {
+    "plaintext": {
+      "returnAddress": {
+        "inner": "1jqjwQ0USRGO5Bqm9gjnBcRupBoubrPmdbHKkqPkOc9zhpyF0qxSdJnH4NCRPSgL/i+gv9ELn+MsYRVJYOWk30/57nzD/O0NFD9OmQbKm+U="
+      },
+      "text": "bYs5zYfy xKrTXCQ2 KfHu 6Q1cW 1j    6 DX   lSCYK2rG 8FfljI4B1C s0R8FpplYUpWu279t gW3KUcB4oPtRF R0d0 42jvAZJEEF h3G4L2 N78hMRaHo3Kt5CzXhxM B524xG  3t3 S qeBW yXy0u0f3Q03uuxS66eE 9X Y b  ysNI iIRu3U7Ux Dz2s1Gva783 Y55V1vT"
+    },
+    "key": "dKS2n25rI9F4qjLgaO6CZb52a4RGeF+z97XplhfGGcM="
   }
 }

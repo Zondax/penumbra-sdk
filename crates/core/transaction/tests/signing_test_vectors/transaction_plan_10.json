@@ -1,100 +1,84 @@
 {
   "actions": [
     {
-      "proposalSubmit": {
-        "proposal": {
-          "title": "vkdhsftlg-6340666030193708661",
-          "description": "kwoeai-4793102263178515169356716579",
-          "signaling": {}
+      "delegate": {
+        "validatorIdentity": {
+          "ik": "ukRs3/r9TptE2LkvRVPzJbuVP7hSSzUNEd8KtdxSr+A="
         },
-        "depositAmount": {
-          "lo": "12909196238215414"
+        "epochIndex": "6100",
+        "unbondedAmount": {
+          "lo": "777132942103900154"
+        },
+        "delegationAmount": {
+          "lo": "808890657606703176"
         }
       }
     },
     {
-      "positionOpen": {
-        "position": {
-          "phi": {
-            "component": {
-              "p": {
-                "lo": "601933346084361823"
-              },
-              "q": {
-                "lo": "199758989564752483"
-              }
-            },
-            "pair": {
-              "asset1": {
-                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-              },
-              "asset2": {
-                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-              }
-            }
+      "positionWithdraw": {
+        "reserves": {
+          "r1": {
+            "lo": "581800287129074435"
           },
-          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
-          "state": {
-            "state": "POSITION_STATE_ENUM_CLOSED"
+          "r2": {
+            "lo": "906698136710048729"
+          }
+        },
+        "positionId": {
+          "inner": "zh7thUR5aG6ksUghXCGXmBjjnL87uS2T34mKtYPuzBo="
+        },
+        "pair": {
+          "asset1": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
           },
-          "reserves": {
-            "r1": {
-              "lo": "194218140268482907"
-            },
-            "r2": {
-              "lo": "760758746492025233"
-            }
-          },
-          "closeOnFill": true
-        }
+          "asset2": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "sequence": "14853424753231659212"
       }
     },
     {
-      "actionDutchAuctionSchedule": {
-        "description": {
-          "input": {
+      "positionWithdraw": {
+        "reserves": {
+          "r1": {
+            "lo": "929668698861119101"
+          },
+          "r2": {
+            "lo": "368016367958826899"
+          }
+        },
+        "positionId": {
+          "inner": "DU9j1LfX+QBi0Xdy+eOxVTarhnTH4hyKTzKpL+OTez0="
+        },
+        "pair": {
+          "asset1": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "asset2": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "sequence": "4919473388624371630",
+        "rewards": [
+          {
             "amount": {
-              "lo": "610494058979516937"
+              "lo": "582777733227415270"
             },
             "assetId": {
               "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
             }
-          },
-          "outputId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          },
-          "maxOutput": {
-            "lo": "828438600773162744"
-          },
-          "minOutput": {
-            "lo": "957584202670255169"
-          },
-          "startHeight": "753301358",
-          "endHeight": "753301359",
-          "stepCount": "828250991",
-          "nonce": "hVRRXBjJ7eAkQnDET157fullW1Wlr1/rjFmIJ2rYOdo="
-        }
-      }
-    },
-    {
-      "communityPoolSpend": {
-        "value": {
-          "amount": {
-            "lo": "790523462100311735"
-          },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
           }
-        }
+        ]
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "368984369",
-    "chainId": "jmqptcwrkav-5457786122718644",
+    "expiryHeight": "414161",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "265854478781762380"
+        "lo": "159383779112126618"
       }
     }
   }

@@ -1,14 +1,80 @@
 {
   "actions": [
     {
-      "proposalDepositClaim": {
-        "proposal": "414267719",
-        "depositAmount": {
-          "lo": "799855507655296861"
-        },
-        "outcome": {
-          "failed": {}
+      "positionOpen": {
+        "position": {
+          "phi": {
+            "component": {
+              "p": {
+                "lo": "214720456385658234"
+              },
+              "q": {
+                "lo": "331999372587650196"
+              }
+            },
+            "pair": {
+              "asset1": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              },
+              "asset2": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              }
+            }
+          },
+          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+          "state": {
+            "state": "POSITION_STATE_ENUM_OPENED"
+          },
+          "reserves": {
+            "r1": {
+              "lo": "531679318708968630"
+            },
+            "r2": {
+              "lo": "508907299779615758"
+            }
+          },
+          "closeOnFill": true
         }
+      }
+    },
+    {
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "tnDzEQT7FYfno8gC5XuH3rp4ytdHc0D6Dd6u/bktlsQ="
+        },
+        "unbondedAmount": {
+          "lo": "955536756111500292"
+        },
+        "delegationAmount": {
+          "lo": "365703442743761026"
+        },
+        "fromEpoch": {
+          "index": "2700",
+          "startHeight": "2700"
+        }
+      }
+    },
+    {
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "929705074727608939"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "MIrT0XEEEUXEPrubSXIQFxJlj0pGtXPL5ZiGCMNcxvE=",
+          "address": {
+            "inner": "iQvJjjaYqkV45BmwKNpWcuYnwoDYsGFm9MQtU2a8zx/POyls1h6NdEoh918vtpcYPhhZXYp5AIU52PsTi0BdsJ22XMQtVMDncuXULV8gtS8="
+          }
+        },
+        "position": "71579891108303",
+        "randomizer": "RHDaU+uoRu4RMKflGWaFc1HWRohD9Qy1hj7ATnPK0QE=",
+        "valueBlinding": "wqM+h/ZHrFFhJ9QR/iMN0iWE2IvIGq4+aXYnMKojwwI=",
+        "proofBlindingR": "1k0oLB5/mb1mQrXmxntpjLAmmPUvJcUO/MQf8EhveQU=",
+        "proofBlindingS": "dAeaCFLbDVNEdlJgiowpIpfzwWMyJ7JDG3LFTzt8yQA="
       }
     },
     {
@@ -17,10 +83,10 @@
           "phi": {
             "component": {
               "p": {
-                "lo": "616134581316380473"
+                "lo": "218507199048325276"
               },
               "q": {
-                "lo": "918024852624877366"
+                "lo": "159726036437405739"
               }
             },
             "pair": {
@@ -38,42 +104,23 @@
           },
           "reserves": {
             "r1": {
-              "lo": "745860647007517824"
+              "lo": "961396761437520216"
             },
             "r2": {
-              "lo": "156282182435216568"
+              "lo": "395710665282831422"
             }
           },
           "closeOnFill": true
         }
       }
-    },
-    {
-      "ics20Withdrawal": {
-        "amount": {
-          "lo": "152229665045581333"
-        },
-        "denom": {
-          "denom": "DgKM53"
-        },
-        "destinationChainAddress": "penumbra10c0jlkkwucgcsedq7v3uhh6pgrk6h3429mx0gkltugg3maxt3egyemdfx0neg9x55wjzgjerexjxc2mjl8l7hyququ00p69gs6vxr4ga66f4l9yjfdhzdtzjgfczxvyegm9k9s",
-        "returnAddress": {
-          "inner": "HsvuGv09+sAwmKC3LG7F94ac/mToGgFgRfNWnBA9tg/lqg32n9SUmnIm8CLfKJvi9MGSmoKkLs6z0cM65FIl20Rgx+e7CM4B65SvBHjtweU="
-        },
-        "timeoutHeight": {
-          "revisionNumber": "635443618",
-          "revisionHeight": "21032834"
-        },
-        "sourceChannel": "channel-0"
-      }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "8785158461",
-    "chainId": "ekeysoehpmdegwrzwcecspmsjm-49221425172907582434487920",
+    "expiryHeight": "131107",
+    "chainId": "qubmhcynohq-5",
     "fee": {
       "amount": {
-        "lo": "663279731578099519"
+        "lo": "561525914541258418"
       }
     }
   }

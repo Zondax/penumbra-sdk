@@ -1,66 +1,103 @@
 {
   "actions": [
     {
-      "actionDutchAuctionSchedule": {
-        "description": {
-          "input": {
+      "delegatorVote": {
+        "proposal": "907508862",
+        "startPosition": "80603",
+        "vote": {
+          "vote": "VOTE_ABSTAIN"
+        },
+        "stakedNote": {
+          "value": {
             "amount": {
-              "lo": "181451187935194818"
+              "lo": "834211125139263897"
             },
             "assetId": {
               "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
             }
           },
-          "outputId": {
+          "rseed": "ac4hNZTYJVrYZachkBGLFUi2cDONKgDip8AoDU/rXos=",
+          "address": {
+            "inner": "Fqk7l97xGz8m/vf8hIV1OUgMYVrgoSbBxtcM2zs+hLALbYhwzdzlUBd9ObsgRrsPCkAFSgQfyhOZKwDf0jeoCw+gimR0HdJ1aMeGc45m14o="
+          }
+        },
+        "stakedNotePosition": "42624",
+        "unbondedAmount": {
+          "lo": "424911663654759462"
+        },
+        "randomizer": "JO/4YQegAr5Zs4d2wkrMKPumgjm6TrvWcI48QWompgQ=",
+        "proofBlindingR": "8C5M9OhS/4c/RieNP1jXDfMxv98wELO4r4FDH3pNiwE=",
+        "proofBlindingS": "DnWKjlp05EgxPfbGhwb28P2MBpGgC0QbEq6UYGGtmw8="
+      }
+    },
+    {
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "ygS0NfUO3UKp+uMfZh75vthe79b5Lv3BBpUoKiLHOfs="
+        },
+        "seq": "10892141",
+        "reservesInput": {
+          "amount": {
+            "lo": "457312395404560955"
+          },
+          "assetId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "107379479649090299"
           },
-          "maxOutput": {
-            "lo": "981467343483746236"
-          },
-          "minOutput": {
-            "lo": "816154240701797997"
-          },
-          "startHeight": "838332756",
-          "endHeight": "838332757",
-          "stepCount": "79700368",
-          "nonce": "LxX4R1QJUcAL64eNQVtNu2mmCnm2bnzuBdVPV6UieBY="
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
         }
       }
     },
     {
-      "actionDutchAuctionSchedule": {
-        "description": {
-          "input": {
+      "delegatorVote": {
+        "proposal": "975056504",
+        "startPosition": "11502",
+        "vote": {
+          "vote": "VOTE_NO"
+        },
+        "stakedNote": {
+          "value": {
             "amount": {
-              "lo": "17016452041769541"
+              "lo": "764060453978996495"
             },
             "assetId": {
               "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
             }
           },
-          "outputId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          },
-          "maxOutput": {
-            "lo": "364101025380650949"
-          },
-          "minOutput": {
-            "lo": "926771860551171596"
-          },
-          "startHeight": "27854867",
-          "endHeight": "27854868",
-          "stepCount": "516191274",
-          "nonce": "UZpstblKi4261jzwv7WKD6GJk6W3ee92X24S2iqSEyE="
+          "rseed": "fQ14fb25P7juV7Xr1AtsHqPT6lEEobYvKw2m/JCsdPA=",
+          "address": {
+            "inner": "8f1AgzvYgu+8CBceThboeF1f8ghNJ4Zg7rmI0/s2Q+JRdz90RLr3tlpoqVNB+scLdfg49fVSeOuG72esw+3OA+c3L0JZ14CfC9s86RNI4ok="
+          }
+        },
+        "stakedNotePosition": "94694",
+        "unbondedAmount": {
+          "lo": "77959095817695421"
+        },
+        "randomizer": "Xq863Tw0rznDpCeEMB9tiOF8jXQOLIQnOUEIgif9HQQ=",
+        "proofBlindingR": "uMJZZozVXMR3kk1/HfN8iQfIy9oFUkznWYn/rzoi9QI=",
+        "proofBlindingS": "jeLBf1xr5nUcVCi0zDZGL6VFOaq3Tz8WrkO7zQtiHAE="
+      }
+    },
+    {
+      "actionDutchAuctionEnd": {
+        "auctionId": {
+          "inner": "KfeAkmLlWMTrnZDLTVIot2m6XV32edkZmiGTPAEgkbI="
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "6710415564",
-    "chainId": "ebrul-565648844622071770384975869",
+    "expiryHeight": "498404",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "896098301936349283"
+        "lo": "722718928870895340"
       }
     }
   }

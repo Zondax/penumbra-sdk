@@ -1,38 +1,46 @@
 {
   "actions": [
     {
-      "delegate": {
-        "validatorIdentity": {
-          "ik": "1v9Ntnd7yc+RwdVM6gUV0iRCfmTg4eE9zLpS8MURXxo="
-        },
-        "epochIndex": "9683",
-        "unbondedAmount": {
-          "lo": "7195608283177206"
-        },
-        "delegationAmount": {
-          "lo": "608116032648238037"
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "793426494609712441"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "outputId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "maxOutput": {
+            "lo": "72788887275502037"
+          },
+          "minOutput": {
+            "lo": "332568576732192391"
+          },
+          "startHeight": "50793280",
+          "endHeight": "50793281",
+          "stepCount": "120547848",
+          "nonce": "Rm0qLwa3lW+eAwYRqFZ57IBGUn/0H6sHYvCqw/PvdCc="
         }
       }
     },
     {
-      "proposalSubmit": {
-        "proposal": {
-          "title": "hkupgxtnkcjecxfxb-59864250696317978994561595148302",
-          "description": "rfn-61385793505989969484",
-          "signaling": {}
-        },
-        "depositAmount": {
-          "lo": "275107701206158898"
+      "actionDutchAuctionEnd": {
+        "auctionId": {
+          "inner": "RvqUtkEN78z6j9jyh78kN2LIh+JKVgP8tv+nnR2ckdk="
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "61488075",
-    "chainId": "hhjevsgvz-1092128947010650909",
+    "expiryHeight": "764441",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "383385177669936477"
+        "lo": "129808339520090752"
       }
     }
   }

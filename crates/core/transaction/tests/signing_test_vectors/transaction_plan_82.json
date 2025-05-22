@@ -1,21 +1,14 @@
 {
   "actions": [
     {
-      "actionDutchAuctionEnd": {
-        "auctionId": {
-          "inner": "vSkhhYwBqwjhtXiyKySb7J+rLbJqVPkrcI5iboH4UHs="
-        }
-      }
-    },
-    {
       "actionDutchAuctionWithdraw": {
         "auctionId": {
-          "inner": "2JI926sniRZCNQYePICqxtSrJ0yCH/3r/x2dmrgVEoI="
+          "inner": "AXP6Z6H8ISLqfYB8WD8Uzr4e7XvfmBtkD62Bkp2yPM0="
         },
-        "seq": "798238410",
+        "seq": "87587931",
         "reservesInput": {
           "amount": {
-            "lo": "219804310184902937"
+            "lo": "143259512745326215"
           },
           "assetId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
@@ -23,21 +16,40 @@
         },
         "reservesOutput": {
           "amount": {
-            "lo": "767034455027239074"
+            "lo": "589125208708252365"
           },
           "assetId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
           }
         }
       }
+    },
+    {
+      "output": {
+        "value": {
+          "amount": {
+            "lo": "80504099090491978"
+          },
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "destAddress": {
+          "inner": "z2iPB84efGMbN8cR0pF4C2Db7px6NyzIpd1Ur3RVNs1CsUzjUNsr6DvuDBiUKIzgjd4M75skbrfwFAkhG8CmRf8c7OqeldnTmaYy2lobohU="
+        },
+        "rseed": "Qfzsof1iKHZSllxDJbWKdf9Xi6RcGKJtwgiXMBWnMsA=",
+        "valueBlinding": "cp0TeCKjDseHWPyv8OXR9vcNjTt8lCGaxAoLyESCSAM=",
+        "proofBlindingR": "1JQ3dNSiR0w/sB+igij3oXlwapiXLHfePY8+Ekm6qwE=",
+        "proofBlindingS": "4rK2X6ip+IyFzIs/zih4ra4L6Kbafjetu8op+1k3LBA="
+      }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "4440323029",
-    "chainId": "b-915831354005118702135340",
+    "expiryHeight": "957720",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "72430506364727270"
+        "lo": "470053245827027209"
       }
     }
   }

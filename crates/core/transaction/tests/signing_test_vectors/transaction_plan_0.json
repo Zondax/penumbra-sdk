@@ -1,48 +1,98 @@
 {
   "actions": [
     {
-      "positionWithdraw": {
-        "reserves": {
-          "r1": {
-            "lo": "13648740409960435"
-          },
-          "r2": {
-            "lo": "756856335878883454"
-          }
+      "undelegateClaim": {
+        "validatorIdentity": {
+          "ik": "hP4sN2sP3k0LkpWtZb2MvWHERjDiff7NsyegwJiTtxg="
         },
-        "positionId": {
-          "inner": "STNeLtIut4nZAZOgE2tGZMRof1ge1GThQiZ0S3ReG20="
+        "penalty": {
+          "inner": "AAAAAAAAAAAAAAAAAAAAAP5Pdl/YraufVZs9B8hLXc0="
         },
-        "pair": {
-          "asset1": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          },
-          "asset2": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
+        "unbondingAmount": {
+          "lo": "564552251991868135"
         },
-        "sequence": "1"
+        "balanceBlinding": "L5p/ASt12D/JTxAhmEyHwl1kD7vkmJYCQXOE4X97PQI=",
+        "proofBlindingR": "Fmak58m/MN5oPCm1EE6aA2IYhVc8EeGwhVHyUtIs2gc=",
+        "proofBlindingS": "yjQrEQicYnLXKl1YkzE+y4a5y5HtDIuaUjIEpfyHmgk=",
+        "unbondingStartHeight": "9785"
       }
     },
     {
-      "proposalSubmit": {
-        "proposal": {
-          "title": "eruqiigybuwslelyedqzuejy-9415523",
-          "description": "bnsgnfxdfqopuoofieudfassceif-7983516",
-          "signaling": {}
+      "ics20Withdrawal": {
+        "amount": {
+          "lo": "672826217216946497"
         },
-        "depositAmount": {
-          "lo": "755307093195598306"
+        "denom": {
+          "denom": "IUd5"
+        },
+        "destinationChainAddress": "penumbra1pu9h738gs9ryt6gdetc63vwntau5fqlaqecr0fxf459pqnqjkrwylg63h4e756e68dla3tu8f6v850jafajzpffav67sy2mvjuzglttyxpccjs80cvhm7ht7numpqhcjtx0tzw",
+        "returnAddress": {
+          "inner": "Cq0CTDumIwGNzLat68UrbUF9h28cpez6VGnq0kjxbXxXQ5KkI2t3efwQGkB/2U4zVS65rrj0enipAYgAHezJ3D7G7Z79gAZjdgwfF8PKK1k="
+        },
+        "timeoutHeight": {
+          "revisionNumber": "25682325",
+          "revisionHeight": "161054179"
+        },
+        "sourceChannel": "channel-0"
+      }
+    },
+    {
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "7145673729824181"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "H+tiXw6jkp876gdZN+yUjOa9IGJnYd/NkVFlXmxGc9g=",
+          "address": {
+            "inner": "iQvJjjaYqkV45BmwKNpWcuYnwoDYsGFm9MQtU2a8zx/POyls1h6NdEoh918vtpcYPhhZXYp5AIU52PsTi0BdsJ22XMQtVMDncuXULV8gtS8="
+          }
+        },
+        "position": "235407915268166",
+        "randomizer": "CpI157I2sdOq9RNR5AWiieoIDlC4PrdWTnbphj0WngA=",
+        "valueBlinding": "S4mgL7xkMmQvW8XFaILv2AOe8j8YK2R381DkpmfIIwE=",
+        "proofBlindingR": "fBkyVO3W4KGyzBGZbpeH/S9ik19SOnccQI50WsyOIg8=",
+        "proofBlindingS": "TWMP4g4XmOY1uGb/QI+uZaLd5lr6MDpNlrHt03YDBhI="
+      }
+    },
+    {
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "75872102076029874"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "outputId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "maxOutput": {
+            "lo": "799116890288969091"
+          },
+          "minOutput": {
+            "lo": "185599195032843714"
+          },
+          "startHeight": "166170794",
+          "endHeight": "166170795",
+          "stepCount": "632186894",
+          "nonce": "PlgmFPC/S1VXjaNfcQcOZJHbrLSES/M6PV24MqxNj2E="
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "8043970505",
-    "chainId": "dgptroyoifjvsxy-559380648",
+    "expiryHeight": "571156",
+    "chainId": "uienokfxtwcglgc-5258412079868",
     "fee": {
       "amount": {
-        "lo": "428924731905324533"
+        "lo": "169597591988428355"
       }
     }
   }

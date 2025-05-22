@@ -1,53 +1,73 @@
 {
   "actions": [
     {
-      "delegate": {
-        "validatorIdentity": {
-          "ik": "5d+n5re432w595HMnHMWNIeiqBG7koxRWz+z/OAcdvo="
-        },
-        "epochIndex": "7758",
-        "unbondedAmount": {
-          "lo": "254573988376150326"
-        },
-        "delegationAmount": {
-          "lo": "654990827166732001"
+      "positionOpen": {
+        "position": {
+          "phi": {
+            "component": {
+              "p": {
+                "lo": "965818153941039663"
+              },
+              "q": {
+                "lo": "712693400016870208"
+              }
+            },
+            "pair": {
+              "asset1": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              },
+              "asset2": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              }
+            }
+          },
+          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+          "state": {
+            "state": "POSITION_STATE_ENUM_CLOSED"
+          },
+          "reserves": {
+            "r1": {
+              "lo": "309866788128237407"
+            },
+            "r2": {
+              "lo": "16784443805252067"
+            }
+          },
+          "closeOnFill": true
         }
       }
     },
     {
-      "actionDutchAuctionSchedule": {
-        "description": {
-          "input": {
-            "amount": {
-              "lo": "110793240593760250"
-            },
-            "assetId": {
-              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-            }
+      "actionDutchAuctionWithdraw": {
+        "auctionId": {
+          "inner": "cCMXVde2Z3YhUWGSxYJ6U0bS/ovuWcWM1FWtzTDL8eU="
+        },
+        "seq": "710258667",
+        "reservesInput": {
+          "amount": {
+            "lo": "461788122850176020"
           },
-          "outputId": {
+          "assetId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "reservesOutput": {
+          "amount": {
+            "lo": "541565042281051708"
           },
-          "maxOutput": {
-            "lo": "638989916025602774"
-          },
-          "minOutput": {
-            "lo": "203912627439460772"
-          },
-          "startHeight": "747076843",
-          "endHeight": "747076844",
-          "stepCount": "269699674",
-          "nonce": "+axlhX1m8hOAaaXAcxlGp+yTRNHZJtVEvVQF/XzRFKI="
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "9795867227",
-    "chainId": "jtmkkgfpmpxgdgzkb-56292869373067953542534",
+    "expiryHeight": "922066",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "426559720761419916"
+        "lo": "847892220985572793"
       }
     }
   }

@@ -1,67 +1,79 @@
 {
   "actions": [
     {
-      "undelegate": {
-        "validatorIdentity": {
-          "ik": "1edcSaV2YSnQlv4fYAk5qBsIeuxMDGgzctO2IOYZhP4="
-        },
-        "unbondedAmount": {
-          "lo": "652405107337655181"
-        },
-        "delegationAmount": {
-          "lo": "423191983562764026"
-        },
-        "fromEpoch": {
-          "index": "531",
-          "startHeight": "531"
+      "positionClose": {
+        "positionId": {
+          "inner": "NUJdlw2Redlkt8fF/A/FKmsDfXL3xSnMvp+N2+p9S8A="
         }
       }
     },
     {
-      "positionOpen": {
-        "position": {
-          "phi": {
-            "component": {
-              "p": {
-                "lo": "405908343509531556"
-              },
-              "q": {
-                "lo": "286261227439288925"
-              }
-            },
-            "pair": {
-              "asset1": {
-                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-              },
-              "asset2": {
-                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-              }
-            }
+      "undelegateClaim": {
+        "validatorIdentity": {
+          "ik": "uOGwaxmhQTavTaOpWRTwBRI0qRj37FeCJ4qg6Bdtzfo="
+        },
+        "penalty": {
+          "inner": "AAAAAAAAAAAAAAAAAAAAAP7SiM5wOvt+kP+XJHRTjvQ="
+        },
+        "unbondingAmount": {
+          "lo": "553038531806854506"
+        },
+        "balanceBlinding": "sv2H20eGTzxsNCBvfKiK4+9t3m3CdaiCTPCbpLhKtAA=",
+        "proofBlindingR": "h9f/jjy29jlAnT1rAzIUd2zpOFE7/R/l3spBHbEWnRA=",
+        "proofBlindingS": "x49tQkuokiZL85G00Vl4F40oNnRTQ8gocnpciVrZhA4=",
+        "unbondingStartHeight": "72113"
+      }
+    },
+    {
+      "output": {
+        "value": {
+          "amount": {
+            "lo": "155179119943616647"
           },
-          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
-          "state": {
-            "state": "POSITION_STATE_ENUM_CLOSED"
-          },
-          "reserves": {
-            "r1": {
-              "lo": "24069323774632283"
-            },
-            "r2": {
-              "lo": "870580343836603525"
-            }
-          },
-          "closeOnFill": true
+          "assetId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          }
+        },
+        "destAddress": {
+          "inner": "dkX7V5XsoU4uMN8wfi7GEdARb6GzkMTeTOW0KFuGKPC1/VMeDmSl/A6UPlSGVPBKMpJOSRGCfsOHdXIiiF9RjWS65GmIKn6HdOfIcyGzUII="
+        },
+        "rseed": "kQC8hxhMYOc8UiVb2zAzg6ZuXCdeCaoaL9FYnz++a6s=",
+        "valueBlinding": "n6yn0DkjCML/Ka3VeXdtSrUM6LOcx3D9kGpNJjb+BAA=",
+        "proofBlindingR": "lwujs5UmA3hZwYIFZsxK3jPmCFXAkE87NTy2PcpEugw=",
+        "proofBlindingS": "Q8qOMQ+2sFfxaYxL2Bz3kWManBvMCL0chAyTG6Rlhw8="
+      }
+    },
+    {
+      "delegate": {
+        "validatorIdentity": {
+          "ik": "OlJuXo3DaJkDL02UV48okmVzRN7U5LmJrN8idTnWPjE="
+        },
+        "epochIndex": "9771",
+        "unbondedAmount": {
+          "lo": "212936973826419391"
+        },
+        "delegationAmount": {
+          "lo": "281477176955055646"
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "8897284399",
-    "chainId": "ylobq-86104941540550730124",
+    "expiryHeight": "558018",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "667876737206031395"
+        "lo": "602284044211149337"
       }
     }
+  },
+  "memo": {
+    "plaintext": {
+      "returnAddress": {
+        "inner": "op8MYQ6aV3GBgzsE/xyBbrPlFfYYGM5kg/o6f/2xNp5CRJ7uXHzcTXdcObd6YlYk/AKLzBLx+lKMJ1qv4oCr0sCfeyZRkMLUG8Mx7Sy/ENo="
+      },
+      "text": "ozFM1A izmw68W JOVmXPJ xy73151  xaAN y3    AFBq   VKQUZ8   t18vy4PeI wF 1rR e2o  8ResW1 G055LBtd1g5uHG22m h j1Lsnqmt6 h1a 5DvWy ylp 2v E411q  8zicX6W1PRd Iy6WMwt  cG4O4G Chsr2e aMcqhX FUJi TfpkjrhOmQD7CPgqMBbj 8NcTlhnj2G NCNRxdvb L l vUT69 5U4gA68mb ES5cSf Z6tYk UlVjr9 eG kMVZkVXB J   u   JG lZ 3 1pAKfAB dtS 7Lvx9Ko  JO1DULx U   ax gg 2p wJ7osUf9nI0W667bf7 1ty0gBxI N 7b798ZA9v7X1cP7fl zB AT XTfUf9NW8AY3DTFlUsd x69diA81 tT5mY470h"
+    },
+    "key": "nJSCQ/xmd2IbMNqcgHw8k85xujmPOZOSHhaByJQESZA="
   }
 }

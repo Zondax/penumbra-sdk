@@ -1,39 +1,49 @@
 {
   "actions": [
     {
-      "communityPoolOutput": {
-        "value": {
-          "amount": {
-            "lo": "233239121287366481"
-          },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
+      "delegate": {
+        "validatorIdentity": {
+          "ik": "7o5QuT3zK3/sBqClKV36/oQvvkMpR4Xj9a0tgFf9ddY="
         },
-        "address": {
-          "inner": "5pyKiG9GOmdj1R+7uUK0xogu32WZehdZSdH3oPvU7BRJSl8cxW92N1iIXWULncdtsyBmzZjps07S4CDe2r8Wl9kc9uL7Ao+0NlkzcVH/FfU="
+        "epochIndex": "42",
+        "unbondedAmount": {
+          "lo": "139395019137133029"
+        },
+        "delegationAmount": {
+          "lo": "945748083969717931"
         }
       }
     },
     {
-      "proposalSubmit": {
-        "proposal": {
-          "title": "slmoicbwarrjduvwlszcecqv-873603",
-          "description": "kcy-85204757736789404739",
-          "signaling": {}
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "928175607537362644"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          "rseed": "LBH0OA/BtzcBAI0ZMUNLVYtzgYw21+yXHN6WehC5Zbc=",
+          "address": {
+            "inner": "iQvJjjaYqkV45BmwKNpWcuYnwoDYsGFm9MQtU2a8zx/POyls1h6NdEoh918vtpcYPhhZXYp5AIU52PsTi0BdsJ22XMQtVMDncuXULV8gtS8="
+          }
         },
-        "depositAmount": {
-          "lo": "226793985111579160"
-        }
+        "position": "94751033108822",
+        "randomizer": "cJe/vYrZxVmQqn35Jt7vIG+WUnQ02AInygNBtS3BdAQ=",
+        "valueBlinding": "Pzm2no7tkjdMdKglvBgBbj6SxFYCPy/BPWdTD13OWAI=",
+        "proofBlindingR": "MDh7LOoiNBMPH3PZa8CA/4D13sMIPv+p1ir1+5U5+wA=",
+        "proofBlindingS": "le+S2JdERi8AG1FZqGIIZIJoST/l3RCUe86rqYmFyQY="
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "6962057625",
-    "chainId": "ocegnwkkpqwehfpmirirsxkrnpc-0181549246346809501680805277930",
+    "expiryHeight": "742620",
+    "chainId": "ptakjlkdilqrdpygfifjxymqtj-1500380872",
     "fee": {
       "amount": {
-        "lo": "737214071928375968"
+        "lo": "945545487129522913"
       }
     }
   }

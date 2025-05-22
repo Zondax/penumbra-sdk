@@ -4,14 +4,14 @@
       "positionWithdraw": {
         "reserves": {
           "r1": {
-            "lo": "201443633617440129"
+            "lo": "95596466189409417"
           },
           "r2": {
-            "lo": "617392343763087923"
+            "lo": "112222410859445377"
           }
         },
         "positionId": {
-          "inner": "X+WR9ktERUS4w2LkgLDEHEVZs2MEtTB5lOH4gmNbP8c="
+          "inner": "MMY5FhRb7NkA6vm6vLORleufO8q4bL/cmhcdtpTxcyY="
         },
         "pair": {
           "asset1": {
@@ -21,7 +21,49 @@
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
           }
         },
-        "sequence": "1"
+        "sequence": "13442313793762056471",
+        "rewards": [
+          {
+            "amount": {
+              "lo": "721113534413750410"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          },
+          {
+            "amount": {
+              "lo": "467924152734115442"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
+          }
+        ]
+      }
+    },
+    {
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "sOFbbvf1v+6yapIIHFJVrnbTYjrLK4O9mC5TwMyNStk="
+        },
+        "unbondedAmount": {
+          "lo": "899910944125989227"
+        },
+        "delegationAmount": {
+          "lo": "356774558319115742"
+        },
+        "fromEpoch": {
+          "index": "745",
+          "startHeight": "745"
+        }
+      }
+    },
+    {
+      "positionClose": {
+        "positionId": {
+          "inner": "Y05oJXvMYBSf4Pc3241cQ9coE4sc2fvlfkZzvuITjZo="
+        }
       }
     },
     {
@@ -29,60 +71,31 @@
         "note": {
           "value": {
             "amount": {
-              "lo": "902684893903255648"
+              "lo": "266194326825080414"
             },
             "assetId": {
               "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
             }
           },
-          "rseed": "1VeNb0KR0w1uBg8UWniP7BzRDNdG71h7VAo9YhQ0dmo=",
+          "rseed": "Nw2NiPrsrvv8dWvJn4cQM1Yos1FJMVoSSggwCE4I3Mk=",
           "address": {
-            "inner": "r7ae/+8Q9d3QdaAs66/GAAbYBo/Am59nYWeIBU7REchE3LYtFPa1EHW2Lo1KZcRWuXzO/cM54CLSFnv2iArQnxjrlJnTB4nGnuLdFtCY9vc="
+            "inner": "iQvJjjaYqkV45BmwKNpWcuYnwoDYsGFm9MQtU2a8zx/POyls1h6NdEoh918vtpcYPhhZXYp5AIU52PsTi0BdsJ22XMQtVMDncuXULV8gtS8="
           }
         },
-        "position": "59296039256241",
-        "randomizer": "1SoYgexQCRka4bUm33V2m/TCTX/sB1sNHxdR0KhWtQA=",
-        "valueBlinding": "GAu0X26lL+R898yc972quKAzswvUNlP54JUMCQZdZAQ=",
-        "proofBlindingR": "NrQe1ZvB5B5dNYgVLA2o7UdamB5rDcHisF0PlUi1ShE=",
-        "proofBlindingS": "VD3u2xPrTvmCQzSLTSVCsoRuvo1pvstLE4ydXREnVQA="
-      }
-    },
-    {
-      "communityPoolDeposit": {
-        "value": {
-          "amount": {
-            "lo": "516233400468744618"
-          },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
-        }
-      }
-    },
-    {
-      "undelegate": {
-        "validatorIdentity": {
-          "ik": "LKckY3QlmyaFfp0fOoPsqLK8a0hC6A6hVFlQBw5G4ok="
-        },
-        "unbondedAmount": {
-          "lo": "331733130205834259"
-        },
-        "delegationAmount": {
-          "lo": "12804681958798873"
-        },
-        "fromEpoch": {
-          "index": "8673",
-          "startHeight": "8673"
-        }
+        "position": "232705491472464",
+        "randomizer": "zcPTLKrIcmoBVRhZymogS1lT1oSMiNukdsbJwGsDnQE=",
+        "valueBlinding": "GSHnH8fnaJMqq4vOaRnYSz2bqy07V1a5Kh3VfRFZcgM=",
+        "proofBlindingR": "KKqXbSfz6Nq10ErXnA9vl5KwsVettJ4esemPR0NFEQA=",
+        "proofBlindingS": "YUJoJhbh/IXdkk8TMZtSDvHG6OZSMVxVXJeBW/KEoQk="
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "3463037096",
-    "chainId": "mrununqsiunfkjzgegcnsr-496741038808052588830534002144",
+    "expiryHeight": "455025",
+    "chainId": "kcsphtbnnobjrhiqzpyraxffhc-3071495813134332342946405",
     "fee": {
       "amount": {
-        "lo": "317441656977586368"
+        "lo": "944040985821429165"
       }
     }
   }

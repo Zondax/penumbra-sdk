@@ -1,72 +1,49 @@
 {
   "actions": [
     {
-      "validatorVote": {
-        "body": {
-          "proposal": "737860699",
-          "vote": {
-            "vote": "VOTE_NO"
+      "spend": {
+        "note": {
+          "value": {
+            "amount": {
+              "lo": "515217097795054245"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
           },
-          "identityKey": {
-            "ik": "2zSKoclsheomE1Z2zPe0KBF8c1uD1J50St6CMmebA8U="
-          },
-          "governanceKey": {
-            "gk": "xEzm3ufW9SI0vCFCAYW0XRD2dIuECpK19iKSUIoF9wA="
-          },
-          "reason": {
-            "reason": "n6Nj7UbCD1e"
+          "rseed": "lm+saJXCeQIGGLZazVJupACi0nNNZ8a4pk05Q6Nfnb4=",
+          "address": {
+            "inner": "iQvJjjaYqkV45BmwKNpWcuYnwoDYsGFm9MQtU2a8zx/POyls1h6NdEoh918vtpcYPhhZXYp5AIU52PsTi0BdsJ22XMQtVMDncuXULV8gtS8="
           }
         },
-        "authSig": {
-          "inner": "OC8hSOl6VCOqZq+wlR7rBt7ngeGUhgS7FSdxkxphYg01FgT0MoYzf/KII+a2wNGiFm1IkhQzQ+TMDF6CUhTXAQ=="
-        }
+        "position": "181993252566123",
+        "randomizer": "PpshfZyXsJTG3nKg5XLrAsdJv83K1y4tXqRc5Sbi9AA=",
+        "valueBlinding": "FqJtqFbLuAZFot1NLKhdkRHs6uV13ZlMGgrmraoJawA=",
+        "proofBlindingR": "DgCY/oWsiTlxdqqUORjeS+XAxDodVgQr/b1HZ5BxmAc=",
+        "proofBlindingS": "DMGUepj+SS3rC2VaKoKwzaaybSQJJkGWGCbYQx0SpQw="
       }
     },
     {
-      "ics20Withdrawal": {
-        "amount": {
-          "lo": "644001588327089470"
+      "delegate": {
+        "validatorIdentity": {
+          "ik": "mw2DzaaLAuQ6jeQ02SRPp9H5wiFQIFb4ZdHc4tl2ZTM="
         },
-        "denom": {
-          "denom": "1rZ9U0PMnnq7EVVvLM15YY9hQSDLkyTp"
+        "epochIndex": "5130",
+        "unbondedAmount": {
+          "lo": "185993031721659733"
         },
-        "destinationChainAddress": "penumbra1lk0edk6s9gkrmcepuaamk75qf74eu3t6tgqudxmkyegz9g2urscmu0ruwckt3vvjkrmurztncc5gzkqxvlct8fm7cnnc3qluxyc5vfuhjgcrktegj564g0gvlf3jrqleuztzwt",
-        "returnAddress": {
-          "inner": "52JzuK+NtoZzgJC64t7LqVneBzxFrgBHxcP/+R/BjvydnPWp62FDo82qx+h+szaIbmmSE3Z+CbHOonCxoL/o0bvB4I4UC1XV2oAlnaKLF1M="
-        },
-        "timeoutHeight": {
-          "revisionNumber": "613171166",
-          "revisionHeight": "316680151"
-        },
-        "sourceChannel": "channel-0"
-      }
-    },
-    {
-      "communityPoolSpend": {
-        "value": {
-          "amount": {
-            "lo": "467365412505888176"
-          },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
-        }
-      }
-    },
-    {
-      "actionDutchAuctionEnd": {
-        "auctionId": {
-          "inner": "PJ1+32nRIYQgCvf8clmG1FlohFzqkSsObd1MAcJ0sGY="
+        "delegationAmount": {
+          "lo": "420256888630769599"
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "5967159869",
-    "chainId": "dkpqfakzletaqbyshaugajusqrixyh-90872977",
+    "expiryHeight": "553927",
+    "chainId": "awssddfvzj-1950417594377279752276173521969",
     "fee": {
       "amount": {
-        "lo": "958926249489581173"
+        "lo": "775595150586614056"
       }
     }
   }

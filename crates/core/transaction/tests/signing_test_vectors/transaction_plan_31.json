@@ -1,43 +1,49 @@
 {
   "actions": [
     {
-      "ics20Withdrawal": {
-        "amount": {
-          "lo": "3373881155391355"
-        },
-        "denom": {
-          "denom": "0uC"
-        },
-        "destinationChainAddress": "penumbra1xm0z5x3n7gm5fwpg5szzrp5rh9lkhw4krp5sdyau0m583xlresj04m28tgluxlz2wlp48cfw4x5ayxgehq8pdkwmkatmfxmhy5zlrazl2hc8a02dsf4w2ex0xsv9c0hwectyrs",
-        "returnAddress": {
-          "inner": "9bYmDKXUX0u0R4ktQQy6j0ysqLM3adW2VI02twIetL9b488iRLJ6HIggCKijCD7kLadsiRZkQuso8wVf2C1YT4roBJu0qH+/2yYK/Z/snQ8="
-        },
-        "timeoutHeight": {
-          "revisionNumber": "838289593",
-          "revisionHeight": "507170589"
-        },
-        "sourceChannel": "channel-0"
+      "actionDutchAuctionEnd": {
+        "auctionId": {
+          "inner": "0x3j+jmZXafulKKXJCKmkoqzyg9tlpnS6qaqtFHsJXM="
+        }
       }
     },
     {
-      "communityPoolSpend": {
-        "value": {
-          "amount": {
-            "lo": "228861155409067192"
+      "delegatorVote": {
+        "proposal": "501311875",
+        "startPosition": "35598",
+        "vote": {
+          "vote": "VOTE_NO"
+        },
+        "stakedNote": {
+          "value": {
+            "amount": {
+              "lo": "869673333501239568"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
           },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          "rseed": "9GwnOA26XYrFkeZ0sON5Bz+li1/WcKPrprFpSXg085w=",
+          "address": {
+            "inner": "KjZ/0nVGtgntWB4s0VNwa5aR5xPQ65g+Osu4BpBPS39bVPDvRWoVLOeqBRZdwxfFy2K/mkL829QBNSU39mKxlYNjNUU8FxuAIg1W7g1D2og="
           }
-        }
+        },
+        "stakedNotePosition": "10804",
+        "unbondedAmount": {
+          "lo": "989958768797759181"
+        },
+        "randomizer": "43AUnL/H4UoSh5rOS1TBFwIM+TD+t7GZ5PGC/wdbdQA=",
+        "proofBlindingR": "jQcY1BghUVtlgTxEL2b7ojhHQsjQmYiosjW2WwalexI=",
+        "proofBlindingS": "HC/TLBGXV7FNK3607F2Wqhk6GSQXfgXfd+uXm2IRUQI="
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "9733323270",
-    "chainId": "boztic-225159793053704637422672",
+    "expiryHeight": "419695",
+    "chainId": "mmzzlvxrbbxrscvlapsw-49355",
     "fee": {
       "amount": {
-        "lo": "535445417177531765"
+        "lo": "501730916340721086"
       }
     }
   }

@@ -1,40 +1,58 @@
 {
   "actions": [
     {
-      "proposalSubmit": {
-        "proposal": {
-          "title": "zrfrwigpehbjckzw-0613652929229646",
-          "description": "mxovalcqch-50367770",
-          "signaling": {}
+      "ics20Withdrawal": {
+        "amount": {
+          "lo": "575177557493280143"
         },
-        "depositAmount": {
-          "lo": "766889808489133079"
-        }
+        "denom": {
+          "denom": "6UE0pTgjA7lSsROhprs1ZdU"
+        },
+        "destinationChainAddress": "penumbra1lyg9m2a2p43yssq550a76v0ealx0uskupenxawe2jhqvegg7z60456y8v2u4z4ryukxrrfa4vml59wnt3wqhsxsap82e9crer7sjcy3jkr4f2z0n3x2h33rn7ac522r9w6zaga",
+        "returnAddress": {
+          "inner": "tlnxs/qdZZvWQUPQcD1RdaNEDvRdLNf0J7IoJcwJyBK0h6pQYt5PG2/ndJjV6DIbhGZbTZ+pL2P0IE70wB6cKB5D8E2ORA5aBFeUfNIKNSU="
+        },
+        "timeoutHeight": {
+          "revisionNumber": "123750061",
+          "revisionHeight": "52923440"
+        },
+        "sourceChannel": "channel-0"
       }
     },
     {
-      "validatorDefinition": {
-        "validator": {
-          "identityKey": {
-            "ik": "LgkDJ3KQE5WaYZj231yZiGwJACXWjbcifxuu5h+/fwQ="
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "70958964120025319"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
           },
-          "consensusKey": "u1DbmaIk2J6fAr493M/Yckk1vLw8SurbmoHbqdwVvXg=",
-          "name": "test validator",
-          "enabled": true,
-          "governanceKey": {
-            "gk": "LgkDJ3KQE5WaYZj231yZiGwJACXWjbcifxuu5h+/fwQ="
-          }
-        },
-        "authSig": "/OdeoxySg7t7Excqef5Vx7NE4SeSA5rWoUfsrlbnFgK78BkUWZKPmvPvIXGkihUqHl2TBAY3XsmajBAhKxjaAQ=="
+          "outputId": {
+            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+          },
+          "maxOutput": {
+            "lo": "703255632691712774"
+          },
+          "minOutput": {
+            "lo": "630548768561467929"
+          },
+          "startHeight": "635948126",
+          "endHeight": "635948127",
+          "stepCount": "359207726",
+          "nonce": "76SCcbmM7F1NR+V4ozdIvEatMK+65g4Fi65rLBQYWQs="
+        }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "6627548769",
-    "chainId": "ukeftelbjnntmusj-343757451",
+    "expiryHeight": "125186",
+    "chainId": "xqviabrbx-217743005810743990306517",
     "fee": {
       "amount": {
-        "lo": "20865560422820502"
+        "lo": "234448023274975130"
       }
     }
   }

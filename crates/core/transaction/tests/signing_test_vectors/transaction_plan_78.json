@@ -1,50 +1,62 @@
 {
   "actions": [
     {
-      "proposalDepositClaim": {
-        "proposal": "473766891",
-        "depositAmount": {
-          "lo": "297957986956764967"
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "49SjsVrgZT/XrM2nc6DRaCEwwhJe8YXyLZzuM7e0hCs="
         },
-        "outcome": {
-          "passed": {}
+        "unbondedAmount": {
+          "lo": "394956823677136981"
+        },
+        "delegationAmount": {
+          "lo": "40187478944257658"
+        },
+        "fromEpoch": {
+          "index": "219",
+          "startHeight": "219"
         }
       }
     },
     {
-      "communityPoolOutput": {
-        "value": {
-          "amount": {
-            "lo": "424215752283475438"
+      "actionDutchAuctionSchedule": {
+        "description": {
+          "input": {
+            "amount": {
+              "lo": "69115218728817990"
+            },
+            "assetId": {
+              "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+            }
           },
-          "assetId": {
+          "outputId": {
             "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
-        },
-        "address": {
-          "inner": "aSij68KSXafDXmgTHZGpIX/zs44rB56aBAnoaynqSijGgSABDcZP25+TwHNp8wKBv3a6CddpWe1l2m6+PreYbYlO2nglVP4kx2S7F5L8vZc="
+          },
+          "maxOutput": {
+            "lo": "261260945788318959"
+          },
+          "minOutput": {
+            "lo": "227640321854113777"
+          },
+          "startHeight": "219120006",
+          "endHeight": "219120007",
+          "stepCount": "158028355",
+          "nonce": "TGiBafH9Fm9dYcmQNxrsdy6cttvhia4+lLkZseun9g8="
         }
       }
     },
     {
-      "communityPoolSpend": {
-        "value": {
-          "amount": {
-            "lo": "243485784561771789"
-          },
-          "assetId": {
-            "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
-          }
+      "positionClose": {
+        "positionId": {
+          "inner": "KS3Dyllu8/f3sUsLWi7IwQeHu93viWsNo7Rn80LE5YY="
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "2886812000",
-    "chainId": "oeipxhgcudkphtmxjwacqy-8106",
+    "chainId": "penumbra-1",
     "fee": {
       "amount": {
-        "lo": "254426681358060609"
+        "lo": "491864208809330668"
       }
     }
   }

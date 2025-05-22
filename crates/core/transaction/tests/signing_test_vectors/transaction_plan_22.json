@@ -1,72 +1,109 @@
 {
   "actions": [
     {
-      "ics20Withdrawal": {
-        "amount": {
-          "lo": "572239724687197090"
+      "undelegate": {
+        "validatorIdentity": {
+          "ik": "yFntofKemNkvFeYCzEqxqWJr9gb9K7LeLyR5BOu2otU="
         },
-        "denom": {
-          "denom": "A2MGbzORYRg41K8GwMytJ1oqZ0x08"
+        "unbondedAmount": {
+          "lo": "949300205369652540"
         },
-        "destinationChainAddress": "penumbra1hka24z0t5kqff8msam89fwuj60zx3f6xpej0qu49tw5uwy5wak2pn6ugazu79r90t5s0m3q03mmkssdps8mju0ru3dtas0dfeg9e5m7dyq7usdpvwlhpwel9zz6ucq3twl3g2r",
-        "returnAddress": {
-          "inner": "WG1ai0Eo+VBmKuIT9vHnMLYfe24xYc2bsheBAZ1ewrwugYutcjPhxhyPIiV4KibWHijW8byStrrKCdid57odQZbX81iR2avskBL2cr0CZEI="
+        "delegationAmount": {
+          "lo": "168979456884421663"
         },
-        "timeoutHeight": {
-          "revisionNumber": "345822725",
-          "revisionHeight": "838775103"
-        },
-        "sourceChannel": "channel-0"
+        "fromEpoch": {
+          "index": "4938",
+          "startHeight": "4938"
+        }
       }
     },
     {
       "ics20Withdrawal": {
         "amount": {
-          "lo": "390857031570369572"
+          "lo": "831990597319221301"
         },
         "denom": {
-          "denom": "2"
+          "denom": "JVLbZ"
         },
-        "destinationChainAddress": "penumbra1q2ghutkfmpwq4ct2zvjqpksvwdg5xkkq0tg25fde5s87tvp7ucm7y2g693awtxdq0te0j0g7ky69aymk2yc7835tk4qgl36x395w4j7gvtf8ck5dnf7w0xp6quz9d5hzvfpg63",
+        "destinationChainAddress": "penumbra13v5znlysdkp27s8dej4fva4urslmcuau9szey93x48leae9spy97cwrkpl7daj28a9ucljklf2nlpkysecl3avh56ldqv763a3al2gt6dkw69aytp4wxzne8axjlplrc0ayrj4",
         "returnAddress": {
-          "inner": "TXxuazPdQ/sgLgIMxQWVdf/NLf72N/jSQyHiHJ2wAiGk7ZtL1jZfjQ196ATbfyVi3Co2MwTkCKJlCxU0c+COY3tNcbC/9UZJbehTlulvmRk="
+          "inner": "1DmtKK6d3IIPUVZZDMUNU5DcXdlzEmEFJKpjfF0jAUAj/jcfcEeNcqLqzechd9e8kc4XxrU/2Pa4GT+yYIei4K67JUtwpdTrY6FAZabcg94="
         },
         "timeoutHeight": {
-          "revisionNumber": "752492919",
-          "revisionHeight": "158576005"
+          "revisionNumber": "651862387",
+          "revisionHeight": "695216579"
         },
         "sourceChannel": "channel-0"
       }
     },
     {
-      "actionDutchAuctionEnd": {
-        "auctionId": {
-          "inner": "a2OfCkeK70+VP2oQgtk5BHUyev6nMFBIRDEVywdyXbo="
+      "positionOpen": {
+        "position": {
+          "phi": {
+            "component": {
+              "p": {
+                "lo": "200371693814395970"
+              },
+              "q": {
+                "lo": "780440156281719364"
+              }
+            },
+            "pair": {
+              "asset1": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              },
+              "asset2": {
+                "inner": "KeqcLzNx9qSH5+lcJHBB9KNW+YPrBk5dKzvPMiypahA="
+              }
+            }
+          },
+          "nonce": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+          "state": {
+            "state": "POSITION_STATE_ENUM_OPENED"
+          },
+          "reserves": {
+            "r1": {
+              "lo": "16030220773676920"
+            },
+            "r2": {
+              "lo": "247245312575554785"
+            }
+          },
+          "closeOnFill": true
         }
       }
     },
     {
       "delegate": {
         "validatorIdentity": {
-          "ik": "+BH/P8+1GUpxabAH/z35qtpDT0+7N+Q43i5T0A+Pttk="
+          "ik": "lRx2r0oR7+5p928tQ7taxIw/1Q6IjBHdAya64bLlzm0="
         },
-        "epochIndex": "2415",
+        "epochIndex": "3306",
         "unbondedAmount": {
-          "lo": "672535459083675043"
+          "lo": "491448817087158838"
         },
         "delegationAmount": {
-          "lo": "489404686650619208"
+          "lo": "169683130696174928"
         }
       }
     }
   ],
   "transactionParameters": {
-    "expiryHeight": "880562544",
-    "chainId": "qaatugygphxmbsuledhdot-1879023991321521745",
+    "expiryHeight": "972755",
+    "chainId": "zvsmah-922",
     "fee": {
       "amount": {
-        "lo": "480035210485212500"
+        "lo": "777209798375560587"
       }
     }
+  },
+  "memo": {
+    "plaintext": {
+      "returnAddress": {
+        "inner": "AW21fapB9g99X40HcgffKp8ULkGAIMhEQSmZgk6R2/oq9KhHAbQ0z2yUoPsQEraiEXjtd04vEmzD/4fn2Gu1FsQlmfHwDJDqrXlHfJ83Jso="
+      },
+      "text": "HblIB8YZYh1Y4iubw6UV100 LK6 Nf0 I r8  6Ga   I"
+    },
+    "key": "QxMIvBAi1hRmGQJNtolKyrdT8Y+HpRBesc3WfrOAcUU="
   }
 }
