@@ -94,7 +94,7 @@ serde                            = { workspace = true, features = ["derive"] }
 serde_json                       = { workspace = true }
 serde_with                       = { workspace = true, features = ["hex"] }
 sha2                             = { workspace = true }
-tar                              = "0.4.40"
+tar                              = "0.4.45"
 tempfile                         = { workspace = true }
 tendermint                       = { workspace = true }
 tendermint-config                = { workspace = true }
